@@ -1,0 +1,37 @@
+.text-container2{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-top: 1px solid $color2;
+    @media screen and (max-width:920px) {
+        display: block;
+        
+    }
+    p {
+        text-align: left;
+        margin: 30px 0;
+    }
+    h3{
+        font-family: $font1;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        max-width: 60%;
+        margin: 30px auto;
+        letter-spacing: 2px;
+    }
+    h4{
+        font-size: 0.8rem;
+    }
+    img {
+        width: 100%;
+    }
+.left-part-container{
+    padding: 50px;
+    align-items: center;
+    border-right:1px solid $color2;
+}
+}
+.right-part-container{
+    padding: 50px;
+    align-items: center;
+}

@@ -1,0 +1,111 @@
+nav{
+    background: rgba(219, 219, 219, 0.301);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0 30px 0 0;
+    @media screen and (max-width: 800px){
+        display: block;
+        padding: 0;
+    }
+ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: $font1;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.7rem ;
+    letter-spacing: 1px;
+    text-align: center;
+    li {
+        padding: 20px 0;
+        transition: 0.4s;
+        width: 100%;
+    &:hover {
+        background: $color2;
+        color: $color3;
+        cursor: pointer;
+    } 
+    &:first-child{
+        background: $color2;
+        color: $color3;
+    }
+}
+@media screen and (max-width: 800px) {
+    width: 100%;
+
+}
+}
+    .icons{
+    display: flex;
+    justify-content:end;
+    gap: 70px;
+    color: white;
+    transition: 0.4s;
+    @media screen and (max-width: 800px) {
+    display: none;        
+    }
+    i:hover{ 
+        cursor: pointer;
+        color: $color3;    
+        }
+    }
+}
+.main {
+    background: white;
+    max-width: 80%;
+    margin: 0 auto;
+    p{
+        font-size: 0.8rem;
+        line-height: 30px;
+        margin: 30px auto;
+        font-family: $font2;
+        color: $color4;
+    }
+    h4{
+        font-family: $font2;
+        font-weight: 500;
+        text-align: center;
+        color: $color4;
+    }
+    
+    .text-container1{
+        text-align: center;
+        padding: 60px 0 50px;
+        p{
+            max-width: 50%;
+        }
+        h4{
+            font-family: $font2;
+            font-weight: 500;
+        }
+h2{
+    font-family: $font1;
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    max-width: 60%;
+    margin: 50px auto;
+    @media screen and (max-width: 800px){
+        font-size: 2rem;
+        max-width: 75%;
+    }
+}
+button {
+    margin: 40px 0;
+}
+img {
+    max-width: 75%;
+    margin: 0 auto;
+    display: block;
+}
+}
+}
+
+
+
+
+

@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "inter-bold";
+    src: url(./assets/fonts/Inter-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "merriweather";
+    src: url(./assets/fonts/Merriweather-Light.ttf);
+}
+$font1: "inter-bold";
+$font2: "merriweather";
+$color1: white;
+$color2: rgb(225, 225, 225);
+$color3: black;
+$color4: rgb(121, 121, 121);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    ::selection {
+        color: white;
+        background: $color4;
+    }
+}
+
+body{
+    background: url(../assets/img/mastering-front-end-9a36e1b58e3116fe209709e03b0f7a194435ca1a/images/bg.jpg) fixed center/cover; 
+
+}
+button {
+    padding: 10px 20px;
+    border: 2px solid $color3;
+    background: none;
+    font-family: $font1;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+    transition: 0.4s;
+&:hover {
+    background: rgba(117, 117, 117, 0.304);
+    border:2px solid rgba(117, 117, 117, 0.304);
+    color: white;
+    padding: 10px 30px;
+}
+}
